@@ -1,0 +1,29 @@
+{
+  "name": "webkit-cssui-transform-center",
+  "description": "Webkit css ui module transform center.",
+  "main": [
+    "dist/transform-center.css",
+    "dist/transform-center.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "transform-center"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
