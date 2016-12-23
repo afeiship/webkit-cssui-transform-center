@@ -1,8 +1,8 @@
 {
-  "name": "webkit-cssui-transform-center",
+  "name": "webkit-sassui-transform-center",
   "version": "0.0.0",
-  "description": "Webkit css ui module transform center.",
-  "homepage": "https://github.com/afeiship/webkit-cssui-transform-center",
+  "description": "Webkit sass ui module transform center.",
+  "homepage": "https://github.com/afeiship/webkit-sassui-transform-center",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"

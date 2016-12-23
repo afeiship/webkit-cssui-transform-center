@@ -1,6 +1,6 @@
 {
-  "name": "webkit-cssui-transform-center",
-  "description": "Webkit css ui module transform center.",
+  "name": "webkit-sassui-transform-center",
+  "description": "Webkit sass ui module transform center.",
   "main": [
     "dist/transform-center.css",
     "dist/transform-center.scss"
@@ -14,7 +14,7 @@
     "cssui",
     "transform-center"
   ],
-  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "homepage": "https://github.com/afeiship/webkit-sassui-transform-center",
   "moduleType": [
     "amd"
   ],
