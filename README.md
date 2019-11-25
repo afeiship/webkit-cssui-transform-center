@@ -1,6 +1,11 @@
 # webkit-sassui-transform-center
 > Webkit sass ui module transform center.
 
+## installation
+```shell
+npm install -S @feizheng/webkit-sassui-transform-center
+```
+
 ## usage:
 ```scss
 .webkit-sassui-transform-center-x{}
