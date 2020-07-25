@@ -1,26 +1,22 @@
 (function() {
-
   'use strict';
 
   var gulp = require('gulp');
-  var argv = require('yargs').argv;
+  var autoprefixer = require('autoprefixer');
   var $ = require('gulp-load-plugins')({
-    pattern: ['gulp-*', 'gulp.*', 'del']
+    pattern: ['gulp-*', 'gulp.*', 'del', '@feizheng/gulp-*'],
   });
 
+  var { includePaths } = nx.$global;
 
-  gulp.task('styles',function() {
-    return gulp.src('src/*.scss')
+  //styles
+  gulp.task('styles', function() {
+    return gulp
+      .src('src/*.scss')
+      .pipe($.feizheng.pkgHeader())
       .pipe(gulp.dest('dist'))
-      .pipe($.sass({outputStyle: 'expanded'}).on('error', $.sass.logError))
-      .pipe(gulp.dest('dist'))
-      .pipe($.sass({outputStyle: 'compressed'}).on('error', $.sass.logError))
-      .pipe($.rename({
-        extname:'.min.css'
-      }))
-      .pipe(gulp.dest('dist'))
-      .pipe(gulp.dest('docs'));
+      .pipe($.sass({ includePaths }))
+      .pipe($.postcss([autoprefixer()]))
+      .pipe(gulp.dest('dist'));
   });
-
-
-}());
+})();

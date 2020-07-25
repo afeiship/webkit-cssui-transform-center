@@ -1,25 +1,29 @@
+/*!
+ * name: @feizheng/webkit-sassui-transform-center
+ * description: Webkit sass ui module transform center.
+ * homepage: https://github.com/afeiship/webkit-sassui-transform-center
+ * version: 2.0.0
+ * date: 2020-07-25T12:49:38.462Z
+ * license: MIT
+ */
 /*webkit-sassui-transform-center Start*/
 .webkit-sassui-transform-center-x, .webkit-sassui-transform-center-xy, .webkit-sassui-transform-center-y {
-  position: absolute;
-}
+  position: absolute; }
 
 .webkit-sassui-transform-center-x {
   left: 50%;
   transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-}
+  -webkit-transform: translateX(-50%); }
 
 .webkit-sassui-transform-center-y {
   top: 50%;
   transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-}
+  -webkit-transform: translateY(-50%); }
 
 .webkit-sassui-transform-center-xy {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-}
+  -webkit-transform: translate(-50%, -50%); }
 
 /*webkit-sassui-transform-center End*/
