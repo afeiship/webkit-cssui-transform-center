@@ -1,4 +1,4 @@
-# webkit-sassui-transform-center
+# wsui-transform-center
 > Webkit sass ui module transform center.
 
 [![version][version-image]][version-url]
@@ -8,33 +8,30 @@
 
 ## installation
 ```shell
-# install
-npm i @feizheng/webkit-sassui-transform-center
-
-# update
-npm update @feizheng/webkit-sassui-transform-center
+npm i @jswork/wsui-transform-center
 ```
 
 ## usage
 ```scss
-@import '~@feizheng/webkit-sassui-transform-center';
+@import '~@jswork/wsui-transform-center';
+
+// .wsui-transform-center-x
+// .wsui-transform-center-y
+// .wsui-transform-center-xy
 ```
 
-## documentation
-- https://afeiship.github.io/webkit-sassui-transform-center/
-
 ## license
-Code released under [the MIT license](https://github.com/afeiship/webkit-sassui-transform-center/blob/master/LICENSE.txt).
+Code released under [the MIT license](https://github.com/afeiship/wsui-transform-center/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/webkit-sassui-transform-center
-[version-url]: https://npmjs.org/package/@feizheng/webkit-sassui-transform-center
+[version-image]: https://img.shields.io/npm/v/@jswork/wsui-transform-center
+[version-url]: https://npmjs.org/package/@jswork/wsui-transform-center
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/webkit-sassui-transform-center
-[license-url]: https://github.com/afeiship/webkit-sassui-transform-center/blob/master/LICENSE.txt
+[license-image]: https://img.shields.io/npm/l/@jswork/wsui-transform-center
+[license-url]: https://github.com/afeiship/wsui-transform-center/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/webkit-sassui-transform-center
-[size-url]: https://github.com/afeiship/webkit-sassui-transform-center/blob/master/dist/webkit-sassui-transform-center.min.js
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/wsui-transform-center
+[size-url]: https://github.com/afeiship/wsui-transform-center/blob/master/dist/wsui-transform-center.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/webkit-sassui-transform-center
-[download-url]: https://www.npmjs.com/package/@feizheng/webkit-sassui-transform-center
+[download-image]: https://img.shields.io/npm/dm/@jswork/wsui-transform-center
+[download-url]: https://www.npmjs.com/package/@jswork/wsui-transform-center
 
